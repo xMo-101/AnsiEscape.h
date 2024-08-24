@@ -22,7 +22,7 @@
 /* ################################################################### */
 
 #define ANSI_CURSOR_HOME             ANSI_CSI"H"         // Move Cursor to (0, 0)
-#define ANSI_CURSOR_XY(x, y)         ANSI_CSI#x;#y"H"    // Move Cursor to (x, y)
+#define ANSI_CURSOR_XY(x, y)         ANSI_CSI#x";"#y"H"    // Move Cursor to (x, y)
 #define ANSI_CURSOR_UP(n)            ANSI_CSI#n"A"       // Move Cursor up (n) lines
 #define ANSI_CURSOR_DOWN(n)          ANSI_CSI#n"B"       // Move Cursor down (n) lines
 #define ANSI_CURSOR_RIGHT(n)         ANSI_CSI#n"C"       // Move Cursor right (n) columns
