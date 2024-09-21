@@ -40,6 +40,7 @@
 #define ANSI_ERASE_INDISPLAY         ANSI_CSI"J"         // Erase in Display
 #define ANSI_ERASE_CURSORTOBEGIN     ANSI_CSI"1J"        // Erase Cursor to Beginning of Display
 #define ANSI_ERASE_SCREEN            ANSI_CSI"2J"        // Erase Screen
+#define ANSI_ERASE_SCREEN2           ANSI_ESC"c"         // Erase Screen 2
 #define ANSI_ERASE_SAVEDLINES        ANSI_CSI"3J"        // Erase Saved Lines
 #define ANSI_ERASE_INLINE            ANSI_CSI"K"         // Erase in Line
 #define ANSI_ERASE_STARTTOCURSOR     ANSI_CSI"1K"        // Erase Start to Cursor
